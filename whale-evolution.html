@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://sub-surface031.github.io/">
     <title>Whale Evolution – Sub-Surface Encyclopedia</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -129,8 +130,6 @@
             margin-bottom: 0.5rem; display: block;
         }
 
-        /* Whale image: 19.05h x 20.05w — nearly square (ratio ~0.95:1)
-           We centre it and let it fill up to 680px wide naturally */
         .hero-image-wrap {
             width: 100%; margin-bottom: 4rem;
             display: flex; justify-content: center;
@@ -138,7 +137,7 @@
 
         .hero-image-wrap img {
             width: 100%;
-            max-width: 680px;   /* keeps square feel on wide screens */
+            max-width: 680px;
             height: auto;
             display: block;
             border: 1px solid rgba(100, 149, 237, 0.2);
@@ -182,7 +181,6 @@
         }
 
         .timeline-card-body { padding: 1.5rem 1.8rem; }
-
         .timeline-card-body p { color: #b0bec5; font-size: 0.94rem; line-height: 1.85; text-align: justify; }
 
         .card-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; }
@@ -245,20 +243,12 @@
         }
 
         .footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 3rem; margin-bottom: 2rem; }
-
         .footer-section h3 { color: #e3f2fd; margin-bottom: 1.2rem; font-size: 1.1rem; font-weight: 400; letter-spacing: 1px; font-family: 'Courier New', monospace; text-transform: uppercase; }
-
         .footer-section p, .footer-section a { color: #90a4ae; line-height: 2; text-decoration: none; display: block; margin-bottom: 0.5rem; font-size: 0.9rem; transition: color 0.2s ease; }
         .footer-section a:hover { color: #b0bec5; }
 
         .social-icons { display: flex; gap: 0.75rem; margin-top: 0.8rem; align-items: center; }
-
-        .social-icons a {
-            display: inline-flex; align-items: center; justify-content: center;
-            width: 36px; height: 36px; border: 1px solid rgba(100, 149, 237, 0.25);
-            border-radius: 4px; padding: 6px; transition: all 0.2s ease; margin-bottom: 0;
-        }
-
+        .social-icons a { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border: 1px solid rgba(100, 149, 237, 0.25); border-radius: 4px; padding: 6px; transition: all 0.2s ease; margin-bottom: 0; }
         .social-icons a:hover { border-color: rgba(100, 149, 237, 0.6); background: rgba(100, 149, 237, 0.1); }
         .social-icons img { width: 100%; height: 100%; object-fit: contain; display: block; }
 
@@ -324,7 +314,6 @@
                 </div>
             </div>
 
-            <!-- Hero image — near-square (19.05h × 20.05w), centred, max 680px -->
             <span class="section-label">Evolutionary Diagram</span>
             <h2 class="section-title">The Whale Family Tree</h2>
             <div class="hero-image-wrap">
